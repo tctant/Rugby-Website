@@ -1,0 +1,215 @@
+body { background-color: #f7f7fe;
+    background-image: linear-gradient(to bottom, #8C1D40, #FFC627); 
+    background-repeat: no-repeat;
+    color: #020212;
+    font-family: Arial, Arial, Helvetica, sans-serif; }
+header { background-color: #ffc627;
+    color: #020212; 
+    background-image: url(ASU\ LOGO.png);
+    background-position: right 20px center;
+    background-repeat: no-repeat; 
+    background-size: auto 60%;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px; }
+nav { background-color: #FFFFFF; 
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold; }
+nav a {text-decoration: none; }
+main { padding-top: 1px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: block;}
+h1{ margin-bottom: 0;
+    margin-top: 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+h2 { color: #8C1D40;
+    text-shadow: 1px 1px 1px #CCCCCC; 
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+h3 { color: #000033; 
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+footer {font-size: 0.75em; 
+    font-style: italic; 
+    text-align: center;
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+dt { color: #002171; }
+.address { color: #8c1d40; 
+    font-weight: bold; }
+.contact { font-size: 0.9em;}
+.wrapper { width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px; 
+    box-shadow: 3px 3px 3px #333333; }
+.logo-section { flex: 1;
+    position: sticky;
+    top: 20px;
+    text-align: center; }
+.image { max-width: 100%;
+    height: auto;
+    max-height: 300px; }
+.hero h2 { color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 2.5rem;}
+.home-layout { display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start; }
+.logo-column { grid-column: 2;
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; }
+.logo-container img { width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto; }
+.contact-info { padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #FFC627; }
+.roster-page { padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; }
+.player-grid { display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 25px; }
+.player { background-color: #f7f7fe;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 3px solid #8C1D40;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: 500; }
+.schedule-page { padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; }
+.schedule-container { margin: 25px 0;
+    border-radius: 8px; }
+.schedule-table { width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em; }
+.schedule-table th { background-color: #8C1D40;
+    color: white;
+    padding: 12px 15px;
+    text-align: left; }
+.schedule-table td { padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0; }
+.schedule-table tr:nth-child(even) { background-color: #f7f7fe; }
+.schedule-table td:first-child { font-weight: bold;
+    color: #8C1D40;
+    white-space: nowrap; }
+.staff-page { padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333; }
+.head-coach { display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #FFC627; }
+.coach-photo { width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #8C1D40;
+    border-radius: 4px; }
+.coach-details h3 { color: #8C1D40;
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+.staff-list { background-color: #f7f7fe;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 4px solid #8C1D40; }
+.staff-list h3 { color: #8C1D40;
+    padding-bottom: 8px;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+.staff-list ul { list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0; }
+.staff-list li { padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1.05em; }
+.join-container { display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; }
+.join-content { flex: 1;
+    min-width: 300px;
+    padding-right: 20px; }
+.why-join-container { display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; }
+.why-join-content {
+    flex: 1;
+    min-width: 300px; }
+.why-join-video { flex: 1;
+    min-width: 300px;
+    align-self: center; }
+@media (max-width: 600px) { section { margin-left: 2em;
+    margin-right: 2em; 
+    flex: 1;}
+.flow { display: flex;
+    flex-direction: row; }
+form { width: 60%; 
+    max-width: 30 em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr; }
+input[type="submit"] {
+    grid-column: 2 / 3;
+    width: 9em; }
+}
+@media (min-width: 600px) {
+nav ul { display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; }
+nav li { border-bottom: none; }
+section { margin-left: 2em;
+    margin-right: 2em; 
+    flex: 1;}
+.flow { display: flex;
+    flex-direction: row; }
+form { width: 60%; 
+    max-width: 30 em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr; }
+input[type="submit"] {
+    grid-column: 2 / 3;
+    width: 9em; }
+}
+@media (min-width: 1024px) {
+nav { text-align: left;
+    padding-left: 1em; }
+form { width: 60%;
+    max-width: 30em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr; }
+label { display: block;
+    margin-bottom: 0.3em; }
+}
+form { display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+input { margin-bottom: 0.5em; }
+textarea { margin-bottom: 0.5em; }
+video { float: right; 
+    margin: 1em; }
